@@ -22,9 +22,9 @@ App.propTypes = {
 }
 
 App.defaultProps = {
-  headline: 'Hello World',
+  headline: 'Prawiranegara Subambang',
   showLogos: true,
-  backgroundImage: 'http://ruang-ilmiah.oss-ap-southeast-5.aliyuncs.com/template_cert/template-sertifikat-1.png',
+  backgroundImage: 'http://ruang-ilmiah.oss-ap-southeast-5.aliyuncs.com/template_cert/template02.png',
 }
 
 export default App;
