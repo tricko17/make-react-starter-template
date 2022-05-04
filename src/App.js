@@ -9,7 +9,12 @@ function App({ headline, showLogos, backgroundImage }) {
   return (
     <div className="App" style={{ backgroundImage: `url('${backgroundImage}')` }}>
 
-      <h1>{headline}</h1>
+      {
+        (headline.length > 52) ?
+          <h2>{headline}</h2> :
+          <h1>{headline}</h1>
+      }
+
 
     </div>
   );
@@ -22,9 +27,9 @@ App.propTypes = {
 }
 
 App.defaultProps = {
-  headline: 'Prawiranegara Subambang',
+  headline: 'ABDULLAH ARIEF SYAHPUTRA PRAWIRANEGARA SUBAMBANG HARIS',
   showLogos: true,
-  backgroundImage: 'http://ruang-ilmiah.oss-ap-southeast-5.aliyuncs.com/template_cert/template02.png',
+  backgroundImage: 'http://ruang-ilmiah.oss-ap-southeast-5.aliyuncs.com/template_cert/2022032308442607.jpg',
 }
 
 export default App;
