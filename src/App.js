@@ -27,7 +27,7 @@ App.propTypes = {
 }
 
 App.defaultProps = {
-  headline: 'ABDULLAH ARIEF SYAHPUTRA PRAWIRANEGARA SUBAMBANG HARIS',
+  headline: 'PRAWIRANEGARA SUBAMBANG HARIS',
   showLogos: true,
   backgroundImage: 'http://ruang-ilmiah.oss-ap-southeast-5.aliyuncs.com/template_cert/2022032308442607.jpg',
 }
