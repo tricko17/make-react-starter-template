@@ -17,8 +17,7 @@ function App({ headline, showLogos, backgroundImage, qrcode }) {
 
       {
         (qrcode == "") ?
-          <img src={qrcode} width={'70px'} height={'70px'} style={{ position: 'absolute', left: '30px', top: '460px' }} />
-          : null
+          null : <img src={qrcode} width={'70px'} height={'70px'} style={{ position: 'absolute', left: '30px', top: '460px' }} />
       }
 
 
