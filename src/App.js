@@ -15,7 +15,7 @@ function App({ headline, showLogos, backgroundImage, qrcode }) {
           <h1>{headline}</h1>
       }
 
-      <img src={qrcode} width={'90px'} height={'90px'} style={{ position: 'absolute', left: '30px', top: '430px' }} />
+      <img src={qrcode} width={'70px'} height={'70px'} style={{ position: 'absolute', left: '30px', top: '460px' }} />
 
 
 
